@@ -87,7 +87,6 @@ const getWeatherDetails = (cityName, latitude, longitude) => {
       alert("An error occurred while fetching the weather forecast!");
     });
 };
-// Get coordinates of entered city name
 const getCityCoordinates = () => {
   const cityName = cityInput.value.trim();
   if (cityName === "") return;
